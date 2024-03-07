@@ -1,0 +1,101 @@
+Contents:-
+Introduction to Array
+Array and JSON interaction(objects and JSON)
+XMLHttpsRequest (API and Function basic)
+Hoisting & Scope 
+
+
+
+
+Introduction to Array:- 
+=> collection of datatypes
+=> it always sequence order lathaa irukkum
+=> enclosed whithin square bracket[]
+=> index always start with 0
+=> Array la index and value thaan irukkum
+=> to find the length dynamically we have to use "arrayname.length"
+last index ah kandupudikka "arrayname.length-1 "
+
+=> var a = [1,2,5,"abc",true]
+    console.log(a);
+    //ippo variable  ellathaiyum print pannanumna intha below comment ah use pannum
+    for (var i=0;i<a.length;i=i=1){
+    console.log(a[i]);
+    }
+
+
+Introduction to objects:-
+=> object ngrathu oru structure ,ithu key, value { pairs la irukkum
+=> Objects index ah base panni irukkathu
+
+syntax forobjects:-
+var/let/const objName = {
+    KeyName: Value
+}
+
+example:-
+Personel details(Name,age,gender,year,city)
+refer script file
+//for in loop 
+//syntax
+//for(var key in object name)
+//{
+  //block of codes
+//}
+
+=> oru object kulla irukkura elements ah epdi access pannurathu
+=> inga element ah naama keyName ah vachu access pannuvom
+2 types of accessing (Dot method and box method)
+=>Dot method
+syntax:-
+objName.KeyName
+
+//using dot method
+// console.log(personDetails.Name);
+// console.log(personDetails.Age);
+//console.log(personDetails.Gender);
+//console.log(personDetails.Year);
+//console.log(personDetails.City);
+
+//using box method
+//console.log(personDetails["Name"]);
+//console.log(personDetails["Age"]);
+// console.log(personDetails["Gender"]); 
+// console.log(personDetails["Year"]);
+// console.log(personDetails{"City"});
+
+
+=> Box method
+syntax:-
+objName["KeyName"]
+=> without keys values ah tharamudiyathu
+
+
+=>Adding new element in the object:-
+syntax:-
+objName.KeyName=value
+
+
+=> Updating a exixting elements in the object:-
+syntax:-
+objName.KeyName=value
+
+
+=>Delete the element in the object
+Syntax:- Delete objName.keyName
+
+=> Can we give array inside the object? If yes how to print?
+Yes, using looping
+
+
+Introduction to JSON:-
+    JSON(Javascript Object Notation)
+syntax:-
+var/let/const objName={
+    "key"="value"
+}
+array of object:-
+arrayname[index]=value
+
+object of array:-   
+objName.keyname=value
